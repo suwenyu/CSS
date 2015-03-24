@@ -124,3 +124,11 @@ a:active {
         #main {position: absolute; top: 80px;}
         #pub, #footer {display: none;}
 }
+ul
+{
+	font-family : Ubuntu;
+	color : 8951A6;
+	font-size : 20px;
+}
+
+
