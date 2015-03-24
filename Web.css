@@ -30,11 +30,11 @@ ol.mylist > li:before {
     content: counter(ol-counter);
     counter-increment: ol-counter;
 }
-/*
+
 ol.tilted-list {
     list-style-type: none;
     list-style-type: decimal !ie; /*IE 7- hack*/
-     /*
+     
     margin: 0;
     margin-left: 3em;
     padding: 0;
@@ -69,7 +69,7 @@ ol.tilted-list > li:before {
     content: counter(li-counter);
     counter-increment: li-counter;
 
-}*/
+}
 
 
 
