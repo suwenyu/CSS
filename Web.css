@@ -30,11 +30,11 @@ ol.mylist > li:before {
     content: counter(ol-counter);
     counter-increment: ol-counter;
 }
-
+/*
 ol.tilted-list {
     list-style-type: none;
     list-style-type: decimal !ie; /*IE 7- hack*/
-     
+     /*
     margin: 0;
     margin-left: 3em;
     padding: 0;
@@ -69,7 +69,7 @@ ol.tilted-list > li:before {
     content: counter(li-counter);
     counter-increment: li-counter;
 
-}
+}*/
 
 
 
@@ -86,7 +86,7 @@ h3
 article#course{
   max-width:1000px;
   padding:1em;
-  
+  position:absolute;
   background: url(http://img1.3lian.com/img2011/w1/101/90/d/91.jpg);
     
   border-radius:1em;
