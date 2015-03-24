@@ -21,6 +21,16 @@
      -o-transform: rotate(7deg) translate(20px,25px) skew(20deg);
      transform: rotate(7deg) translate(20px,25px) skew(20deg);
     }
+
+ol.mylist {
+    list-style-type: none;
+    counter-reset: ol-counter;
+}
+ol.mylist > li:before {
+    content: counter(ol-counter);
+    counter-increment: ol-counter;
+}
+
 ol.tilted-list {
     list-style-type: none;
     list-style-type: decimal !ie; /*IE 7- hack*/
@@ -73,3 +83,12 @@ h3
 	font-family : Architects Daughter;
 	text-align : center; 
 }
+article#recipe{
+  max-width:600px;
+  padding:1em;
+  
+  background: url(http://subtlepatterns.com/patterns/food.png);
+    
+  border-radius:1em;
+}
+
